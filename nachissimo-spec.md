@@ -8,6 +8,18 @@
 
 # ▶ RETOMAR ACÁ — Estado al 17/11/2026
 
+> **Cómo retomar este proyecto.** Decí **"Nachissimo"** y nada más. Dos vías para que Claude recupere
+> este contexto, en orden de preferencia:
+> 1. **Desde GitHub** (recomendado): el repo es `https://github.com/emmchier/nachissimo`.
+>    Claude lo adjunta a la sesión con la herramienta de repos de GitHub, lo clona y lee
+>    `nachissimo-spec.md`. No hace falta que el usuario adjunte nada.
+> 2. **Adjuntando el archivo**: `nachissimo-spec.md`, que vive en
+>    `~/Documents/proyectos/nachissimo/` en la Mac del usuario.
+>
+> Una sesión nueva arranca sin memoria y con el workspace vacío: **sin una de esas dos vías no hay
+> contexto**. Claude lee este bloque primero y sigue desde "Plan de la próxima sesión".
+
+
 **Cómo se retoma:** sesión nueva, **adjuntar este archivo** y decir "sigamos con el portfolio de
 Nacho". Una sesión nueva arranca con el workspace vacío: sin este archivo no hay contexto.
 
